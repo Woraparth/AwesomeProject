@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Ex01 from './screens/week2/ex01';
+import Ex01 from './screens/week2/Ex01';
 import Ex02 from './screens/week2/Ex02';
 import Ex03 from './screens/week2/Ex03';
 import Ex04 from './screens/week2/Ex04';
@@ -12,19 +12,11 @@ import Ex09 from './screens/week2/Ex09';
 import Ex10 from './screens/week2/Ex10';
 import Ex11 from './screens/week2/Ex11';
 import Ex12 from './screens/week2/Ex12';
+import Travel from './screens/week3/Travel';
 import Welcome from './screens/Welcome';
 
 export default function App() {
   return (
-    <Ex12 />
+    <Travel />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
