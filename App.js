@@ -14,9 +14,10 @@ import Ex11 from './screens/week2/Ex11';
 import Ex12 from './screens/week2/Ex12';
 import Travel from './screens/week3/Travel';
 import Welcome from './screens/Welcome';
+import Resort from './screens/week4/Resort';
 
 export default function App() {
   return (
-    <Travel />
+    <Resort />
   );
 }
