@@ -15,9 +15,21 @@ import Ex12 from './screens/week2/Ex12';
 import Travel from './screens/week3/Travel';
 import Welcome from './screens/Welcome';
 import Resort from './screens/week4/Resort';
+import Home from './screens/week6/Home';
+import { NavigationContainer } from '@react-navigation/native';
+import HomeStack from './navigations/HomeStack';
+import BottomTab from './navigations/BottomTab';
+import RootStack from './navigations/RootStack';
+
+
 
 export default function App() {
   return (
-    <Resort />
+    <NavigationContainer>
+      {/* <HomeStack /> */}
+      {/* <BottomTab/> */}
+      <RootStack/>
+    </NavigationContainer>
   );
 }
+   
